@@ -12,7 +12,7 @@ public class Q_006_1 {
         //評点のリスト
         ArrayList<Integer> score  = new ArrayList<>();
 
-        //リストのscoreに審査員（5*n）数を入れる
+        //リストのscoreに審査員（5*n）の評点を入れる
         for (int i = 0; i < 5*n; i++){
             score.add(sc.nextInt());
         }
